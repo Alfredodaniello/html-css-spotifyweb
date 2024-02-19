@@ -3,20 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Spotify</title>
 </head>
 <body>
     <div class="container d-flex">
-        <header></header>
+        <header class="d-flex">
+            <div class="logo margin-l10">
+                <img src="./img/logo.svg" alt="">
+            </div>
+            <nav class="header-nav margin-t30 margin-l10">
+                <ul>
+                    <li><img src="./img/home.svg" alt=""><a href="">Home</a></li>
+                    <li><img src="./img/search.svg" alt=""><a href="">Cerca</a></li>
+                    <li><img src="./img/libreria.svg" alt=""><a href="">La tua libreria</a></li>
+                </ul>
+            </nav>
+            <h4 class="margin-t25 margin-l10">playlist</h4>
+            <div class="d-flex margin-t15 margin-l10">
+                <button class="btn-square"><i class="fa-solid fa-plus"></i></button>
+                <a href="">Crea Playlist</a>
+            </div>
+            <nav class="margin-t15 header-nav-bottom">
+                <ul>
+                    <li><a href="">Nome playlist</a></li>
+                    <li><a href="">Nome playlist</a></li>
+                    <li><a href="">Nome playlist</a></li>
+                    <li><a href="">Nome playlist</a></li>
+                    <li><a href="">Nome playlist</a></li>
+                    <li><a href="">Nome playlist</a></li>
+                </ul>
+            </nav>
+        </header>
         <main>
             <div class="main-header d-flex">
             <button class="btn">Effettua l'upgrade</button>
             </div>
-            <nav class="d-flex">
+            <nav class="d-flex main-nav">
                 <ul class="d-flex wrap">
                     <li class="under"><a href="">In evidenza</a></li>
                     <li><a href="">podcasr</a></li>
@@ -90,6 +117,25 @@
             </div>
         </main>
     </div>
-    <footer></footer>    
+    <footer>
+        <div class="d-flex justify-spaceb">
+            <div>
+                <div class="d-flex square gap-10 align-c">
+                    <img src="./img/sinister.jpeg" alt="">
+                    <div>
+                        <h5>Sinister</h5>
+                        <h6>BranoNome</h6>
+                    </div>
+                    <div class="d-flex gap-10 margin-l24"><i class="fa-regular fa-heart"></i><i class="fa-regular fa-folder"></i></div>
+                </div>
+            </div>
+            <div>
+                <div class="play-bar text-center"><i class="fa-solid fa-shuffle"></i><i class="fa-solid fa-backward-step"></i><i class="fa-regular fa-circle-play"></i><i class="fa-solid fa-forward-step"></i><i class="fa-solid fa-arrow-rotate-right"></i>
+                    <div class="d-flex"><span>0.25</span><span>4.35</span></div>
+                </div>
+            </div>
+            <div class="d-flex last-bar"><i class="fa-solid fa-list"></i><i class="fa-solid fa-display"></i><i class="fa-solid fa-volume-high"></i></div>
+        </div>
+    </footer>    
 </body>
 </html>

@@ -40,6 +40,9 @@ img {
     justify-content: space-between;
 }
 
+.align-c{
+    align-items: center;
+}
 .margin-35 {
     margin-bottom: 35px;
 }
@@ -64,16 +67,61 @@ img {
     margin-top: 45px;
 }
 
+.margin-t25 {
+    margin-top: 25px;
+}
 
+.margin-t30 {
+    margin-top: 30px;
+}
+
+.margin-t15 {
+    margin-top: 15px;
+}
+.margin-l10{
+    margin-left: 10px;
+}
+.gap-10 {
+    gap: 10px;
+}
 
 /****************************
             HEADER         
 *****************************/
 header {
+    flex-direction: column;
     width: calc(100%/7);
     background-color: #000000;
 }
 
+header nav {
+    font-size: 14px;
+    color: #7c7e83;
+}
+
+.header-nav img {
+    color: #7c7e83;
+    width: 30px;
+}
+
+header h4 {
+    text-transform: uppercase;
+    color: #ffffff;
+}
+header a {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #7c7e83;
+    text-decoration: none;
+}
+
+.btn-square {
+    padding: 8px 8px;
+}
+
+.header-nav-bottom li {
+    margin-bottom: 15px;
+}
 /****************************
             MAIN         
 *****************************/
@@ -83,7 +131,7 @@ main    {
     overflow: auto;
 }
 
-nav {
+.main-nav {
     margin-top: 20px;
     margin-bottom: 40px;
     font-weight: bold;
@@ -152,10 +200,44 @@ main a:hover {
             FOOTER         
 *****************************/
 footer {
+    padding: 0px 10px;
+    color: #ffffff;
     height: 90px;
     background-color: #282828;
 }
 
+.square {
+    max-width: 50px;
+}
+
+footer h6 {
+    color: #7c7e83;
+}
+
+footer i {
+    color: white;
+}
+
+.play-bar i {
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.time-bar {
+        background-color: #5a5a5a;
+        height: 5px;
+        width: 360px;
+}
+
+.time-bar-small {
+    background-color: #5a5a5a;
+    height: 5px;
+    width: 100px;
+}
+
+.last-bar i {
+    margin-right: 10px;
+}
 /****************************
             MEDIA Q         
 *****************************/
