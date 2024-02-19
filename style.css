@@ -109,6 +109,7 @@ header h4 {
     color: #ffffff;
 }
 header a {
+    font-size: 10px;
     margin-left: 10px;
     font-weight: bold;
     color: #7c7e83;
@@ -116,11 +117,15 @@ header a {
 }
 
 .btn-square {
-    padding: 8px 8px;
+    padding: 10px 12px;
 }
 
 .header-nav-bottom li {
     margin-bottom: 15px;
+}
+
+.logo-small {
+    display: none;
 }
 /****************************
             MAIN         
@@ -261,5 +266,29 @@ footer i {
 }
 
 @media screen and (max-width:601px) {
-    
+    header {
+        width: 7vw;
+    }
+    header a {
+        display: none;
+    }
+
+    header h4 {
+        display: none;
+    }
+    .btn-square {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+    .header-nav ul {
+        margin-top: -15px;
+        margin-left: -5px;
+    }
+    .logo-small {
+        margin-left: 5px;
+        width: 30px;
+        display: block;
+    }
 }
