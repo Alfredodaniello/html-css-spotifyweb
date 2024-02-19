@@ -1,0 +1,92 @@
+/****************************
+            GENERAL         
+*****************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   font-family: "Montserrat", sans-serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    height: calc(100vh - 90px);
+}
+
+.card {
+    border: 1px white solid;
+    margin-left: calc(10% / 6);
+    background-color: rgb(26, 66, 209);
+    min-height: 200px;
+    width: calc(90% / 6);
+    min-height: 175px;
+}
+/****************************
+            UTILITY         
+*****************************/
+
+.d-flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.justify-spaceb {
+    justify-content: space-between;
+}
+/****************************
+            HEADER         
+*****************************/
+header {
+    width: calc(100%/7);
+    background-color: #000000;
+}
+
+/****************************
+            MAIN         
+*****************************/
+main {
+    color: azure;
+    width: 100%;
+    background-color: #141922;
+    overflow: auto;
+}
+
+/****************************
+            FOOTER         
+*****************************/
+footer {
+    height: 90px;
+    background-color: #282828;
+}
+
+/****************************
+            MEDIA Q         
+*****************************/
+
+@media screen and (max-width:1101px) {
+  .card {
+    width: calc(90%/4);
+  }
+}
+
+@media screen and (max-width:701px) {
+    .card {
+        width: calc(90%/2);
+    }
+    
+}
+
+@media screen and (max-width:601px) {
+    
+}
