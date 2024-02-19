@@ -38,7 +38,11 @@ img {
 
 .justify-spaceb {
     justify-content: space-between;
-}
+ }
+
+ .baseline {
+    align-items: baseline;
+ }
 
 .align-c{
     align-items: center;
@@ -212,7 +216,8 @@ footer {
 }
 
 .square {
-    max-width: 50px;
+    width: 50px;
+    height: 50px;
 }
 
 footer h6 {
