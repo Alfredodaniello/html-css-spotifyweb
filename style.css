@@ -331,7 +331,7 @@ footer i {
 
 @media screen and (max-width:601px) {
     header {
-        width: 7vw;
+        width: 40px;
     }
 
     .logo-small {
