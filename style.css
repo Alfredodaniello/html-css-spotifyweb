@@ -35,7 +35,9 @@ ul {
 .d-flex {
     display: flex;
 }
-
+.column {
+    flex-direction: column;
+}
 .wrap {
     flex-wrap: wrap;
 }
@@ -245,8 +247,8 @@ main a:hover {
     position: absolute;
     font-size: 50px;
     color: #ffffff;
-    left: 75px;
-    top: 70px;
+    left: 65px;
+    top: 55px;
 }
 
 .card img:hover {
@@ -263,6 +265,7 @@ main a:hover {
     height: 200px;
     width: 200px;
     border-radius: 100px;
+    object-fit: cover;
     }
  
 /****************************
@@ -289,8 +292,8 @@ footer i {
 }
 
 .play-bar i {
-    margin-right: 12px;
-    font-size: 24px;
+    margin-right: 20px;
+    font-size: 30px;
 }
 
 .time-bar {
@@ -316,32 +319,32 @@ footer i {
 }
 
 .timebar {
+    margin: 0px 10px;
     height: 5px;
-    background-color: #ffffff;
-    width: 200px;
+    background-color: #5a5a5a;
+    width: 25vw;
 }
 
 .timebar-side {
     border-radius: 5px;
     height: 3px;
-    background-color: #ffffff;
-    width: 50px;
+    background-color: #5a5a5a;
+    width: 8vw;
 }
-
 .timebar-green{
     display: none;
     position: absolute;
     height: 5px;
     background-color: greenyellow;
-    width: 100px;
-    margin-left: 30px;
+    width: 13vw;
+    margin-left: 43px;
 }
 
 .fa-circle {
     position: absolute;
-    top: 2px;
-    left: 90px;
-    color: greenyellow;
+    top: 3px;
+    left: 180px;
+    color: rgb(255, 255, 255);
 }
 
 .timebar:hover + .timebar-green{
@@ -354,6 +357,10 @@ footer i {
 
 #circle {
     font-size: 15px;
+}
+
+.fa-shuffle {
+    margin-left: 30px;
 }
 
 /****************************
