@@ -24,6 +24,10 @@ img {
     margin-left: calc(10% / 6);
     width: calc(90% / 6);
 }
+
+ul {
+    list-style: none;
+}
 /****************************
             UTILITY         
 *****************************/
@@ -93,13 +97,25 @@ img {
     position: relative;
 }
 
+.padding-l16 {
+    padding-left: 16px;
+}
+
 /****************************
             HEADER         
 *****************************/
 header {
+    width: 200px;
+    flex-shrink: 0;
     flex-direction: column;
-    width: calc(100%/7);
     background-color: #000000;
+    overflow: auto;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 20px;
+    max-height: 50px;
 }
 
 header nav {
@@ -132,11 +148,20 @@ header a {
     margin-bottom: 15px;
 }
 
+.header-nav-bottom{
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
 .logo-small {
     display: none;
 }
 
 header a:hover {
+    color: #ffffff;
+}
+
+.account {
     color: #ffffff;
 }
 /****************************
@@ -224,10 +249,12 @@ main a:hover {
 }
 
 .card img:hover {
+    cursor: pointer;
     filter: opacity(0.5);
 }
 
 .card:hover .play-hover {
+    cursor: pointer;
     display: block;
 }
 
@@ -306,6 +333,11 @@ footer i {
     header {
         width: 7vw;
     }
+
+    .logo-small {
+        margin-top: 25px;
+    }
+
     header a {
         display: none;
     }
