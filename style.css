@@ -363,6 +363,28 @@ footer i {
     margin-left: 30px;
 }
 
+.timebar-side-green{
+    display: none;
+    left: 80px;
+    position: absolute;
+    border-radius: 5px;
+    height: 3px;
+    background-color: greenyellow;
+    width: 3vw;
+}
+
+.timebar-side:hover + .timebar-side-green {
+    display: block;
+}
+#circle-side {
+    
+    position: absolute;
+    top: 1px;
+    left: 30px;
+}
+
+
+
 /****************************
             MEDIA Q         
 *****************************/
