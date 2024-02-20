@@ -89,6 +89,10 @@ img {
     gap: 10px;
 }
 
+.relative {
+    position: relative;
+}
+
 /****************************
             HEADER         
 *****************************/
@@ -113,7 +117,7 @@ header h4 {
     color: #ffffff;
 }
 header a {
-    font-size: 10px;
+    font-size: 12px;
     margin-left: 10px;
     font-weight: bold;
     color: #7c7e83;
@@ -130,6 +134,10 @@ header a {
 
 .logo-small {
     display: none;
+}
+
+header a:hover {
+    color: #ffffff;
 }
 /****************************
             MAIN         
@@ -203,8 +211,32 @@ main a {
 }
 
 main a:hover {
-    border-bottom: 2px solid #adff2f;
+    color: #ffffff;
 }
+
+.play-hover{
+    display: none;
+    position: absolute;
+    font-size: 50px;
+    color: #ffffff;
+    left: 75px;
+    top: 70px;
+}
+
+.card img:hover {
+    filter: opacity(0.5);
+}
+
+.card:hover .play-hover {
+    display: block;
+}
+
+.circle img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    }
+ 
 /****************************
             FOOTER         
 *****************************/
