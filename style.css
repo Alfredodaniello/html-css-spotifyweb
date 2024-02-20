@@ -101,6 +101,7 @@ ul {
     padding-left: 16px;
 }
 
+
 /****************************
             HEADER         
 *****************************/
@@ -211,7 +212,7 @@ main h4 {
     z-index: 10;
     flex-direction: row-reverse;
     height: 90px;
-    background-color: #080b12;
+    background-color: rgba(8, 11, 18, 0.5);
 }
 
 .btn {
@@ -288,8 +289,8 @@ footer i {
 }
 
 .play-bar i {
-    margin-right: 20px;
-    font-size: 30px;
+    margin-right: 12px;
+    font-size: 24px;
 }
 
 .time-bar {
@@ -305,8 +306,56 @@ footer i {
 }
 
 .last-bar i {
+    font-size: 15px;
     margin-right: 10px;
 }
+
+.sinister {
+    margin-top: 10px;
+    width: 40px;
+}
+
+.timebar {
+    height: 5px;
+    background-color: #ffffff;
+    width: 200px;
+}
+
+.timebar-side {
+    border-radius: 5px;
+    height: 3px;
+    background-color: #ffffff;
+    width: 50px;
+}
+
+.timebar-green{
+    display: none;
+    position: absolute;
+    height: 5px;
+    background-color: greenyellow;
+    width: 100px;
+    margin-left: 30px;
+}
+
+.fa-circle {
+    position: absolute;
+    top: 2px;
+    left: 90px;
+    color: greenyellow;
+}
+
+.timebar:hover + .timebar-green{
+    display: block;
+}
+
+.timebar:hover + .fa-circle{
+    display: block;
+}
+
+#circle {
+    font-size: 15px;
+}
+
 /****************************
             MEDIA Q         
 *****************************/
