@@ -12,6 +12,7 @@
 </head>
 <body>
     <div class="container d-flex">
+        <!--HEADER-->
         <header class="d-flex">
             <div class="logo margin-l10 margin-t25">
                 <img src="./img/logo.svg" alt="">
@@ -43,6 +44,8 @@
             </nav>
             <div class="account"><h2>alfredo</h2></div>
         </header>
+        <!--/HEADER-->
+        <!--MAIN-->
         <main>
             <div class="main-header d-flex">
             <button class="btn">Effettua l'upgrade</button>
@@ -57,7 +60,7 @@
                     <li><a href="">scopri</a></li>
                 </ul>
             </nav>
-            <h2 class="margin-35 margin-l24">Recently played</h2>
+            <h2 class="margin-35 margin-left categories">Recently played</h2>
             <div class="row d-flex wrap">
                 <div class="card text-center relative">
                     <img src="./img/metal_lifting.jpg" alt="">
@@ -109,8 +112,8 @@
                     <h6>subtitle</h6>
                 </div>
             </div>
-            <h2 class="margin-20 margin-t45 margin-l24">Creato per Jhon Doe</h2>
-            <h6 class="margin-30 margin-l24">Più ascolti, più accurati saranno i suggerimenti</h6>
+            <h2 class="margin-20 margin-t45 margin-left categories">Creato per Jhon Doe</h2>
+            <h6 class="margin-30 margin-left categories">Più ascolti, più accurati saranno i suggerimenti</h6>
             <div class="row d-flex wrap">
                 <div class="card text-center relative">
                     <img src="./img/radar.jpeg" alt="">
@@ -129,8 +132,8 @@
                     <h6>subtitle</h6>
                 </div>
             </div>
-            <h2 class="margin-20 margin-t45 margin-l24">Artisti piu popolari</h2>
-            <h6 class="margin-30 margin-l24">Più ascolti, più accurati saranno i suggerimenti</h6>
+            <h2 class="margin-20 margin-t45 margin-left categories">Artisti piu popolari</h2>
+            <h6 class="margin-30 margin-left categories">Più ascolti, più accurati saranno i suggerimenti</h6>
             <div class="row d-flex wrap">
                 <div class="card text-center relative">
                     <div class="circle">
@@ -154,10 +157,12 @@
                 </div>
             </div>
         </main>
+        <!--/MAIN-->
     </div>
+    <!--FOOTER-->
     <footer>
         <div class="d-flex justify-spaceb baseline">
-            <div class="d-flex align-c">
+            <div class="d-flex align-c m">
                 <img class="sinister" src="./img/sinister.jpeg" alt="">
                 <div>
                     <h5>Sinister</h5>
@@ -171,7 +176,7 @@
             <div>
                 <div class="play-bar text-center"><i class="fa-solid fa-shuffle"></i><i class="fa-solid fa-backward-step"></i><i class="fa-regular fa-circle-play"></i><i class="fa-solid fa-forward-step"></i><i class="fa-solid fa-arrow-rotate-right"></i>
                     <div class="d-flex align-c">
-                        <span>0.25</span>
+                        <span class="time-left">0.25</span>
                         <div class="timebar"></div>
                         <div class="timebar-green"><span><i id="circle" class="fa-solid fa-circle fa-2xs"></i></span></div>
                         <span>4.35</span>
@@ -184,9 +189,9 @@
                 <i class="fa-solid fa-volume-high"></i>
                 <div class="timebar-side"></div>
                 <div class="timebar-side-green"><span><i id="circle-side" class="fa-solid fa-circle fa-2xs"></i></span></div>
-                
             </div>
         </div>
-    </footer>    
+    </footer>
+    <!--/FOOTER-->    
 </body>
 </html>
