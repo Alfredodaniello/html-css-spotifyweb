@@ -170,6 +170,32 @@ header a:hover {
 .account {
     color: #ffffff;
 }
+
+.download {
+    cursor: pointer;
+    width: 20px;
+}
+
+hr {
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+header h6 {
+    color: #ffffff;
+}
+
+.profile {
+    width: 30px;
+}
+
+
+.profile img {
+    background-color: #7c7e83;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
 /****************************
             MAIN         
 *****************************/
@@ -257,15 +283,14 @@ main a:hover {
     filter: opacity(0.5);
 }
 
-.card:hover .play-hover {
-    cursor: pointer;
-    display: block;
+.circle {
+    width: 100%;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .circle img{
-    height: 180px;
-    width: 180px;
-    border-radius: 100px;
+    width: 100%;
     object-fit: cover;
     }
  
@@ -316,7 +341,6 @@ footer i {
 }
 
 .sinister {
-    margin-top: 10px;
     width: 40px;
 }
 
@@ -336,6 +360,9 @@ footer i {
     width: 6vw;
 }
 
+.row-footer {
+    height: 100%;
+}
 /****************************
             HOVER         
 *****************************/
@@ -466,5 +493,17 @@ footer i {
     }
     .fa-circle {
         left: 6vw;
+    }
+    .install {
+        display: none;
+    }
+    .name {
+        display: none;
+    }
+    hr {
+        display: none;
+    }
+    .profile {
+        margin-left: 6px;
     }
 }
